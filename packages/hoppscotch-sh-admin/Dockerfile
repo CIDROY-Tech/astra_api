@@ -1,5 +1,5 @@
 # Initial stage, just build the app
-FROM node:lts as builder
+FROM node:18.8.0 AS builder
 
 WORKDIR /usr/src/app
 
